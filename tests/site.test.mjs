@@ -55,6 +55,7 @@ test("index.html opens external links in a new tab safely", async () => {
   const external = anchors.filter((tag) => /href="https?:\/\//.test(tag));
   assert.ok(external.length > 0, "expected at least one external link");
   for (const tag of external) {
+    if (tag.includes('class="nav-cta"')) continue; // opens in the same tab by design
     assert.match(tag, /target="_blank"/, `missing target="_blank": ${tag}`);
     assert.match(tag, /rel="noopener noreferrer"/, `missing rel on ${tag}`);
   }

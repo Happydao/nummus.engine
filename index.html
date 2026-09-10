@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#071419">
+    <meta name="description" content="Nummus Engine — a clear, public explanation of how the Nummus Aeternitas machine works: locked supply, tBTC accumulation, verified burns, holder governance, and transparency.">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Nummus Engine | How the machine works">
+    <meta property="og:description" content="A public explanation of how Nummus Aeternitas works: reserve, scarcity, and proof.">
+    <meta property="og:image" content="https://happydao.github.io/Nummus.Aeternitas/assets/og-v2.png">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:url" content="https://happydao.github.io/Nummus.Engine/">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Nummus Engine | How the machine works">
+    <meta name="twitter:description" content="A public explanation of how Nummus Aeternitas works: reserve, scarcity, and proof.">
+    <meta name="twitter:image" content="https://happydao.github.io/Nummus.Aeternitas/assets/og-v2.png">
+    <link rel="icon" type="image/png" href="./assets/favicon.png">
+    <link rel="preload" href="./assets/nummus-logo.png" as="image">
+    <link rel="stylesheet" href="./styles.css?v=1">
+    <title>Nummus Engine | How the machine works</title>
+  </head>
+  <body>
+    <main class="shell">
+      <header class="masthead">
+        <a class="brand" href="https://happydao.github.io/Nummus.Aeternitas/" target="_blank" rel="noopener noreferrer" aria-label="Nummus Aeternitas home">
+          <img src="./assets/nummus-logo.png" alt="" width="72" height="72">
+          <span class="brand-name"><span>NUMMUS</span><span>AETERNITAS</span></span>
+        </a>
+        <nav class="nav" aria-label="Sections">
+          <a href="#reserve">The thesis</a>
+          <a href="#engine">The engine</a>
+          <a href="#governance">Governance &amp; vision</a>
+          <a href="#access">Access</a>
+          <a class="nav-cta" href="https://nummus.meme" target="_blank" rel="noopener noreferrer">nummus.meme ↗</a>
+        </nav>
+      </header>
+
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow">Nummus Engine</p>
+          <h1 id="hero-title">How the <em>machine</em> works.</h1>
+          <p class="intro">
+            Nummus Aeternitas is a <strong>Vault Coin</strong> — a community-driven asset on Solana,
+            anchored to a growing Bitcoin reserve and disciplined by verifiable burns.
+            This page explains, step by step, how the machine is built and how it runs.
+          </p>
+          <p class="thesis"><span>Vault Coin</span> Reserve · Scarcity · Proof</p>
+        </div>
+        <div class="hero-art">
+          <img src="./assets/infografica3.png" alt="Nummus Engine cycle: locked supply, swap and accumulate, buy and burn, holder vault, public verification">
+        </div>
+      </section>
+
+      <section id="reserve" class="panel" aria-labelledby="reserve-title">
+        <p class="eyebrow">The thesis</p>
+        <h2 id="reserve-title">A coin built to endure.</h2>
+        <p class="lead">
+          Nummus Aeternitas began as a meme coin, then evolved into something different:
+          a reserve-oriented asset where culture, community and on-chain mechanics work together.
+          Its fixed supply of 100 million coins is designed to keep decreasing through burns,
+          while the model is built around transparent accumulation and reserve discipline.
+        </p>
+        <div class="grid-3">
+          <article class="card">
+            <h3>Vault Reserve</h3>
+            <p>A serious, reserve-backed asset. Through swap activity Nummus accumulates tBTC into a holder-governed vault on Solana, and may hold additional assets over time.</p>
+          </article>
+          <article class="card">
+            <h3>Scarcity</h3>
+            <p>A fixed original supply of 100,000,000 NUMMUS, fully released to the market with no VC allocation — and a circulating supply that only moves in one direction: down.</p>
+          </article>
+          <article class="card">
+            <h3>Proof</h3>
+            <p>Locking, DCA, buybacks and verifiable burns form the operating framework. Every figure is sourced from public on-chain records that anyone can inspect.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="engine" class="panel panel-dark" aria-labelledby="engine-title">
+        <p class="eyebrow">The engine</p>
+        <h2 id="engine-title">Buy, burn, accumulate: the operating system of the vault.</h2>
+        <p class="lead">
+          The mechanism reinforces supply control end to end. Value is locked, routed into a
+          Bitcoin reserve, and reduced through burns — while everything remains public and verifiable.
+        </p>
+
+        <ol class="flow" aria-label="How the Nummus machine works">
+          <li class="flow-step">
+            <span class="flow-num">01</span>
+            <h3>Locked supply</h3>
+            <p>Vested tokens are <a href="https://app.streamflow.finance/project-dashboard/solana/mainnet/9JK2U7aEkp3tWaFNuaJowWRgNys5DVaKGxWk73VT5ray" target="_blank" rel="noopener noreferrer">locked on Streamflow</a>, preventing them from entering the market prematurely.</p>
+            <span class="flow-arrow" aria-hidden="true"></span>
+          </li>
+          <li class="flow-step">
+            <span class="flow-num">02</span>
+            <h3>Swap &amp; accumulate</h3>
+            <p>Strategic <a href="https://solscan.io/account/3X7SW24GtQD3oGKoEhMpk54qqDoy3V7aGg31RdQKf4mh" target="_blank" rel="noopener noreferrer">swap activity</a> routes value toward tBTC, building a verifiable reserve inside the Solana ecosystem.</p>
+            <span class="flow-arrow" aria-hidden="true"></span>
+          </li>
+          <li class="flow-step">
+            <span class="flow-num">03</span>
+            <h3>Buy &amp; burn</h3>
+            <p>Buybacks and <a href="https://happydao.github.io/Nummus.burn/" target="_blank" rel="noopener noreferrer">verified burns</a> progressively reduce the circulating supply, on-chain and public.</p>
+            <span class="flow-arrow" aria-hidden="true"></span>
+          </li>
+          <li class="flow-step">
+            <span class="flow-num">04</span>
+            <h3>Holder vault</h3>
+            <p>The <a href="https://v2.realms.today/dao/2Czvw7p29thfqNJznuicygBKxh33xoCMuGMH7zbPQ2gp/treasury" target="_blank" rel="noopener noreferrer">Nummus Aeternitas Vault</a> holds the assets. Only Nummus holders can vote on the proposals that govern it.</p>
+            <span class="flow-arrow" aria-hidden="true"></span>
+          </li>
+          <li class="flow-step">
+            <span class="flow-num">05</span>
+            <h3>Public verification</h3>
+            <p>The <a href="https://happydao.github.io/Nummus.Hub/" target="_blank" rel="noopener noreferrer">Nummus Hub</a> is the on-chain transparency center: swap portfolio, vault, burn activity and transaction-level Solscan links.</p>
+          </li>
+          <li class="flow-step">
+            <span class="flow-num">06</span>
+            <h3>Institutional metrics</h3>
+            <p>Every metric and its full history is grouped transparently in the <a href="https://happydao.github.io/nummus-nav-dashboard/" target="_blank" rel="noopener noreferrer">Institutional Metric Dashboard</a>, designed to institutional standards with verifiable historical data.</p>
+          </li>
+        </ol>
+      </section>
+
+      <section id="governance" class="panel" aria-labelledby="governance-title">
+        <div class="grid-2">
+          <div>
+            <p class="eyebrow">Governance &amp; vision</p>
+            <h2 id="governance-title">Governed by holders, executed by community.</h2>
+            <p>
+              Nummus holders form the governance layer of the project: they review proposals,
+              vote on vault decisions and help define priorities for reserve policy and public
+              initiatives through the <a href="https://v2.realms.today/dao/2Czvw7p29thfqNJznuicygBKxh33xoCMuGMH7zbPQ2gp" target="_blank" rel="noopener noreferrer">official Realms governance portal</a>.
+            </p>
+            <p>
+              <a href="https://torrino.space" target="_blank" rel="noopener noreferrer">Torrino DAO</a> is the community pushing Nummus forward —
+              the social, cultural and operational force that coordinates attention, participation
+              and disciplined execution around the coin.
+            </p>
+          </div>
+          <blockquote class="quote" role="note">
+            <p>
+              A coin is not a short expedition, but a monument: built through narrative,
+              tangible reserves, and community discipline.
+            </p>
+            <cite>— Torrino DAO</cite>
+          </blockquote>
+        </div>
+      </section>
+
+      <section id="access" class="panel panel-dark" aria-labelledby="access-title">
+        <p class="eyebrow">Access</p>
+        <h2 id="access-title">Contract address and public channels.</h2>
+        <p class="lead">
+          The contract address is the primary reference for identifying the token.
+          Use the official channels for updates, governance discussion and public visibility.
+        </p>
+
+        <div class="address-box">
+          <span class="address-label">Contract Address</span>
+          <span class="address-copy-row">
+            <code class="address-value" title="NUMMUS contract address">9JK2U7aEkp3tWaFNuaJowWRgNys5DVaKGxWk73VT5ray</code>
+            <button class="copy-address-button" type="button" data-copy-address="9JK2U7aEkp3tWaFNuaJowWRgNys5DVaKGxWk73VT5ray" aria-label="Copy contract address">Copy</button>
+          </span>
+        </div>
+
+        <div class="links" aria-label="Official links">
+          <a href="https://jup.ag/tokens/9JK2U7aEkp3tWaFNuaJowWRgNys5DVaKGxWk73VT5ray" target="_blank" rel="noopener noreferrer">Buy on Jupiter</a>
+          <a href="https://solscan.io/token/9JK2U7aEkp3tWaFNuaJowWRgNys5DVaKGxWk73VT5ray" target="_blank" rel="noopener noreferrer">Solscan</a>
+          <a href="https://x.com/NummusMemeCoin" target="_blank" rel="noopener noreferrer">X</a>
+          <a href="https://t.me/nummusmemecoin" target="_blank" rel="noopener noreferrer">Telegram</a>
+          <a href="https://discord.com/channels/1115742764471177256/1444723382565474426" target="_blank" rel="noopener noreferrer">Discord<span class="link-asterisk">*</span></a>
+          <a href="https://coinmarketcap.com/currencies/nummus-aeternitas/" target="_blank" rel="noopener noreferrer">CoinMarketCap</a>
+        </div>
+        <p class="access-note">
+          * Access to the NUMMUS-HODLERS Discord requires holding at least 5,000 $NUMMUS in your wallet.
+          Verification uses the Matrica wallet flow, explained in the #tutorial channel.
+        </p>
+      </section>
+
+      <footer class="footer">
+        <p class="disclaimer">
+          Disclaimer: Nummus Aeternitas is a coin and a speculative crypto asset. Prices are highly
+          volatile and can go up or down. This page is for informational and community purposes only
+          and does not constitute financial advice. Always do your own research and proceed at your own risk.
+        </p>
+        <p class="footer-credit">© 2023 <a href="https://torrino.space" target="_blank" rel="noopener noreferrer">Torrino DAO</a> — Crafted with passion by <a href="https://happydev.fi" target="_blank" rel="noopener noreferrer">HAPPY</a></p>
+      </footer>
+    </main>
+    <script type="module" src="./app.js?v=1"></script>
+  </body>
+</html>
